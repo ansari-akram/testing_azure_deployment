@@ -52,4 +52,4 @@ jobs:
         with:
           app-name: 'empty123'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BC432FE463BF43E2B27EED38543A048D }}
-          package: ./dist/hello-world-app
+          package: ./dist/empty
